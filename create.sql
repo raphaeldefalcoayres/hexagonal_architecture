@@ -1,4 +1,4 @@
-create table branas.parked_car (
+create table postgres.parked_car (
 	id serial primary key,
 	plate text not null,
 	checkin_date timestamp default now(),
